@@ -19,7 +19,7 @@ export const imagealt = "Algorand JNTU Documentation"
 export const twitterhandle = "@AlgorandJNTU"
 
 export const companyname = "Algorand JNTU"
-export const companylink = "https://jntu.algorand.foundation"
+export const companylink = "https://docs.algocraft.fun"
 
 export const branding = true
 export const rightsidebar = true
