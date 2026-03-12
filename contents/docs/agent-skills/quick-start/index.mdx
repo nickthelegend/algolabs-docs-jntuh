@@ -1,40 +1,35 @@
 ---
 title: Quick Start
-description: Set up Algorand Agent Skills in your favorite AI coding tool.
+description: How to setup Algorand Agent Skills in your favorite AI tool.
 ---
 
-# Quick Start with Agent Skills
+# Quick Start: Setting up Agent Skills
 
-Follow these steps to set up Agent Skills in your development environment.
+Follow these steps to integrate Algorand Agent Skills into your project.
 
 ## 1. Prerequisites
-You need an AI coding assistant. We recommend one of the following:
-- **Claude Code**
-- **Cursor**
-- **GitHub Copilot**
-- **OpenCode**
+You need the **[algorand-agent-skills](https://github.com/algorand-devrel/algorand-agent-skills)** repository cloned to your machine.
+
+```bash
+git clone https://github.com/algorand-devrel/algorand-agent-skills.git
+```
 
 ## 2. Setup (Per Project)
 
-Choose your tool and follow the instructions:
+Navigate to your active project directory and copy the necessary skills and configuration files.
 
-### Local Setup (Recommended)
-If you have the `algorand-agent-skills` repository cloned locally:
+### For Cursor
+1. Create a `.cursor/skills` directory in your project root.
+2. Copy the skills:
+   ```bash
+   cp -r ../algorand-agent-skills/skills/* .cursor/skills/
+   ```
+3. Copy the MCP configuration:
+   ```bash
+   cp ../algorand-agent-skills/setups/cursor/mcp.json .cursor/mcp.json
+   ```
 
-```bash
-# In your project root
-cp -r ../algorand-agent-skills/skills ./
-cp ../algorand-agent-skills/setups/AGENTS.md ./
-```
-
-Follow the tool-specific guides below to integrate these skills:
-
-### Cursor
-1. Create a `.cursor/skills` folder in your project.
-2. Copy the skill files: `cp -r ../algorand-agent-skills/skills/* .cursor/skills/`
-3. Configure your `mcp.json` to include the Algorand MCP server.
-
-### Claude Code
+### For Claude Code
 ```bash
 # Copy the skills to your project
 cp -r ../algorand-agent-skills/skills ./
@@ -43,16 +38,12 @@ cp ../algorand-agent-skills/setups/claude-code/.mcp.json ./
 cp ../algorand-agent-skills/setups/claude-code/CLAUDE.md ./
 ```
 
-### GitHub Copilot
-1. Copy the `skills` folder to your project root.
-2. Create a `.github/copilot-instructions.md` file and paste the instructions from the `setups/copilot` folder.
-
 ## 3. GitHub PAT Setup
-Most skills require access to search code examples. You'll need a GitHub Personal Access Token:
-1. Go to [GitHub Settings > Tokens](https://github.com/settings/personal-access-tokens).
-2. Create a new token with read access to public repositories.
-3. Set the `GITHUB_TOKEN` environment variable in your terminal.
+All skills require access to search code examples via GitHub.
+1. Create a [GitHub Personal Access Token](https://github.com/settings/personal-access-tokens).
+2. Set the `GITHUB_TOKEN` environment variable:
+   ```bash
+   export GITHUB_TOKEN="your_token_here"
+   ```
 
-```bash
-export GITHUB_TOKEN="your_token_here"
-```
+Now, your AI assistant is ready to help you build on Algorand!
