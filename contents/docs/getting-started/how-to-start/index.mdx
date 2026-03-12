@@ -1,0 +1,48 @@
+---
+title: How to Start
+description: A quick guide on how to start with Algorand development.
+---
+
+# How to Start with Algorand
+
+Starting your journey as an Algorand developer is easy. Follow these steps to set up your environment and make your first transaction.
+
+## 1. Where to Start?
+The best place to start is the **Algorand Developer Portal**. It contains comprehensive guides, API references, and tutorials.
+
+- [Algorand Developer Portal](https://developer.algorand.org/)
+- [AlgoKit Documentation](https://github.com/algorandfoundation/algokit-cli)
+
+## 2. Setting Up Your Environment
+You need a few things installed on your machine to get started:
+
+- **Python**: Most Algorand tooling is built on Python.
+- **Node.js**: For frontend development and some SDKs.
+- **Docker**: To run a local private network (Algorand "LocalNet").
+
+## 3. Install AlgoKit
+AlgoKit is the primary tool for Algorand development. It helps you initialize projects, run local networks, and deploy contracts.
+
+```bash
+# Install via pip
+pipx install algokit
+
+# Verify installation
+algokit --version
+```
+
+## 4. Spin up LocalNet
+Once AlgoKit is installed, you can start a local Algorand node for testing:
+
+```bash
+algokit localnet start
+```
+
+## 5. Your First Project
+Create a new project using an AlgoKit template:
+
+```bash
+algokit init
+```
+
+Follow the prompts to choose your preferred language (TypeScript or Python).

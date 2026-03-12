@@ -1,0 +1,58 @@
+---
+title: Quick Start
+description: Set up Algorand Agent Skills in your favorite AI coding tool.
+---
+
+# Quick Start with Agent Skills
+
+Follow these steps to set up Agent Skills in your development environment.
+
+## 1. Prerequisites
+You need an AI coding assistant. We recommend one of the following:
+- **Claude Code**
+- **Cursor**
+- **GitHub Copilot**
+- **OpenCode**
+
+## 2. Setup (Per Project)
+
+Choose your tool and follow the instructions:
+
+### Local Setup (Recommended)
+If you have the `algorand-agent-skills` repository cloned locally:
+
+```bash
+# In your project root
+cp -r ../algorand-agent-skills/skills ./
+cp ../algorand-agent-skills/setups/AGENTS.md ./
+```
+
+Follow the tool-specific guides below to integrate these skills:
+
+### Cursor
+1. Create a `.cursor/skills` folder in your project.
+2. Copy the skill files: `cp -r ../algorand-agent-skills/skills/* .cursor/skills/`
+3. Configure your `mcp.json` to include the Algorand MCP server.
+
+### Claude Code
+```bash
+# Copy the skills to your project
+cp -r ../algorand-agent-skills/skills ./
+# Copy the agent configuration
+cp ../algorand-agent-skills/setups/claude-code/.mcp.json ./
+cp ../algorand-agent-skills/setups/claude-code/CLAUDE.md ./
+```
+
+### GitHub Copilot
+1. Copy the `skills` folder to your project root.
+2. Create a `.github/copilot-instructions.md` file and paste the instructions from the `setups/copilot` folder.
+
+## 3. GitHub PAT Setup
+Most skills require access to search code examples. You'll need a GitHub Personal Access Token:
+1. Go to [GitHub Settings > Tokens](https://github.com/settings/personal-access-tokens).
+2. Create a new token with read access to public repositories.
+3. Set the `GITHUB_TOKEN` environment variable in your terminal.
+
+```bash
+export GITHUB_TOKEN="your_token_here"
+```
