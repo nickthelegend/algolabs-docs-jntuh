@@ -206,6 +206,19 @@
   },
   {
     "slug": "/starters",
+    "title": "Starters",
+    "description": "Explore Algorand starters and templates.",
+    "content": "# Starters & Templates\n\nJumpstart your development with our pre-configured templates. Choose a category from the sidebar to explore available starters.\n\n* **[Templates Overview](/docs/starters/overview)**: A high-level look at available frontend and custodian templates.\n",
+    "_searchMeta": {
+      "cleanContent": "starters templates jumpstart your development with our pre-configured templates choose a category from the sidebar to explore available starters templates overview: a high-level look at available frontend and custodian templates",
+      "headings": [],
+      "keywords": [
+        "[Templates Overview](/docs/starters/overview)"
+      ]
+    }
+  },
+  {
+    "slug": "/starters/overview",
     "title": "Starters & Templates",
     "description": "Quick-start templates for Algorand frontend and custodian integration.",
     "content": "# Starters & Templates\n\nJumpstart your development with these pre-configured templates.\n\n## 1. Connect Wallet Starter V2\n\nThe easiest way to integrate Algorand wallets into your React application. Supports Pera, Defly, and other major wallets out of the box.\n\n* **GitHub**: [connect-wallet-starter-v2](https://github.com/nickthelegend/connect-wallet-starter-v2)\n* **Features**:\n  * Wallet Connection UI\n  * Transaction Signing examples\n  * Account balance fetching\n\n## 2. Custodian Wallet Starter\n\nSpecifically designed for onboarding users who don't have a blockchain wallet yet. Allows users to login via **Google**.\n\n* **GitHub**: [connect-wallet-starter-v2-custodian](https://github.com/nickthelegend/connect-wallet-starter-v2-custodian)\n* **Live Demo**: [kyra.algocraft.fun](https://kyra.algocraft.fun)\n* **Key Benefit**: Zero-friction onboarding for non-crypto users.\n\n## 3. Deployment Guide\n\nMost starters can be deployed instantly to **Vercel** or **Netlify**:\n\n1. Push your code to GitHub.\n2. Connect your repo to Vercel/Netlify.\n3. Add any required environment variables (like `NEXT_PUBLIC_ALGOD_SERVER`).\n4. Build and Deploy!\n",

@@ -5,10 +5,6 @@ export const Documents = [
         heading: "Introduction",
         items: [
             {
-                title: "Introduction",
-                href: "/",
-            },
-            {
                 title: "How to Start",
                 href: "/how-to-start",
             },
@@ -24,7 +20,7 @@ export const Documents = [
         items: [
             {
                 title: "Templates Overview",
-                href: "/",
+                href: "/overview",
             },
         ],
     },
@@ -36,10 +32,6 @@ export const Documents = [
         href: "/agent-skills",
         heading: "Power Pill",
         items: [
-            {
-                title: "Overview",
-                href: "/",
-            },
             {
                 title: "Quick Start",
                 href: "/quick-start",
