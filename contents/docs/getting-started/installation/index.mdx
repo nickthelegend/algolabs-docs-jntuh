@@ -1,62 +1,27 @@
 ---
-title: Setup & Installation
-description: Watch the getting started video and install the necessary development tools.
+title: Installation
+description: Install the necessary tools for Algorand development.
 ---
 
-# Setup & Installation
-
-Follow this guide to get your machine ready for Algorand development.
-
-## Watch the Getting Started Video
-Before you start installing, watch this overview to understand the workflow:
-
-<iframe
-  width="100%"
-  height="450"
-  src="https://www.youtube.com/embed/HrZUe5P4mUY" 
-  title="Algorand Getting Started"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  allowfullscreen
-  className="rounded-xl border shadow-sm"
-></iframe>
-
----
-
-## What to Install
+# Installation
 
 To build on Algorand, you'll need the following core tools:
 
 ### 1. Python 3.10+
-Most Algorand tooling, including AlgoKit and Puya Py, is built with Python.
+Most Algorand tooling, including AlgoKit, is built with Python.
 - [Download Python](https://www.python.org/downloads/)
 
 ### 2. Docker Desktop
-Required for running an Algorand "LocalNet" (a private private network on your machine).
+Required for running an Algorand "LocalNet" (a private network on your machine).
 - [Install Docker](https://www.docker.com/products/docker-desktop/)
 
 ### 3. AlgoKit CLI
-AlgoKit is the primary interface for starting projects, running local nodes, and deploying contracts.
+AlgoKit is the primary interface for starting projects.
 
 ```bash
-# Install via pipx (recommended)
+# Install via pip
 pipx install algokit
 
-# Verify installation
+# Verify
 algokit --version
 ```
-
-### 4. Node.js (Optional but Recommended)
-Required if you are building React/Next.js frontends or using the TypeScript SDK.
-- [Install Node.js](https://nodejs.org/)
-
----
-
-## Spin up your First Node
-Once Docker and AlgoKit are installed, you can start a local Algorand node:
-
-```bash
-algokit localnet start
-```
-
-This gives you a functional Algorand network with pre-funded accounts to test your applications for free.

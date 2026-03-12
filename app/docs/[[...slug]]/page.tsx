@@ -89,7 +89,7 @@ export async function generateMetadata({ params }: PageProps) {
 }
 
 export function generateStaticParams() {
-  return PageRoutes.filter((item) => item.href).map((item) => ({
-    slug: item.href.split("/").slice(1),
+  return PageRoutes.map((item) => ({
+    slug: item.href === "/" || item.href === "" ? [] : item.href.split("/").filter(Boolean),
   }))
 }

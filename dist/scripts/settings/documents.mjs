@@ -1,26 +1,20 @@
 export const Documents = [
     {
+        title: "Introduction",
+        href: "/",
+    },
+    {
         title: "Getting Started",
         href: "/getting-started",
-        heading: "Introduction",
+        heading: "Fundamentals",
         items: [
             {
-                title: "How to Start",
-                href: "/how-to-start",
+                title: "Overview",
+                href: "/",
             },
-        ],
-    },
-    {
-        spacer: true,
-    },
-    {
-        title: "Starters",
-        href: "/starters",
-        heading: "Development",
-        items: [
             {
-                title: "Templates Overview",
-                href: "/overview",
+                title: "Installation & Video",
+                href: "/installation",
             },
         ],
     },
@@ -30,17 +24,25 @@ export const Documents = [
     {
         title: "Agent Skills",
         href: "/agent-skills",
-        heading: "Power Pill",
+        heading: "AI Development",
         items: [
             {
-                title: "Quick Start",
-                href: "/quick-start",
+                title: "What are Agent Skills?",
+                href: "/",
             },
             {
-                title: "Available Skills",
-                href: "/available-skills",
+                title: "Quick Start Setup",
+                href: "/quick-start",
             },
         ],
+    },
+    {
+        spacer: true,
+    },
+    {
+        title: "Starters & Templates",
+        href: "/starters",
+        heading: "Starters",
     },
     {
         spacer: true,

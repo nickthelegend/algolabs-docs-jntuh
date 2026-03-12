@@ -1,68 +1,34 @@
 [
   {
-    "slug": "/agent-skills/available-skills",
-    "title": "Available Skills",
-    "description": "A list of the skills included in the Algorand Agent Skills repository.",
-    "content": "# Available Skills\n\nThe following skills are available to supercharge your development workflow:\n\n| Skill | Description |\n| :--- | :--- |\n| `create-project` | Initialize AlgoKit projects with best practices. |\n| `build-smart-contracts` | Build contracts in Algorand TypeScript (PuyaTs) or Python. |\n| `test-smart-contracts` | Write and run contract tests. |\n| `call-smart-contracts` | Deploy and interact with contracts. |\n| `deploy-react-frontend` | Build React frontends for dApps. |\n| `use-algokit-cli` | AlgoKit CLI command reference. |\n| `troubleshoot-errors` | Diagnose and fix common Algorand errors. |\n\n## x402 Protocol Skills\n\nSkills for the x402 HTTP-native payment protocol:\n\n* **`algorand-x402-typescript`**: Clients, servers, and facilitators in TS.\n* **`algorand-x402-python`**: Clients, servers, and facilitators in Python.\n\n## MCP Servers\n\nSkills also provide access to Model Context Protocol (MCP) servers:\n\n* **Kapa MCP**: Semantic search over official Algorand documentation.\n* **GitHub MCP**: Access canonical examples from Algorand repositories.\n",
-    "_searchMeta": {
-      "cleanContent": "available skills the following skills are available to supercharge your development workflow: skill description:--- :---create-project initialize algokit projects with best practices build-smart-contracts build contracts in algorand typescript puyats or python test-smart-contracts write and run contract tests call-smart-contracts deploy and interact with contracts deploy-react-frontend build react frontends for dapps use-algokit-cli algokit cli command reference troubleshoot-errors diagnose and fix common algorand errors x402 protocol skills skills for the x402 http-native payment protocol: algorand-x402-typescript: clients servers and facilitators in ts algorand-x402-python: clients servers and facilitators in python mcp servers skills also provide access to model context protocol mcp servers: kapa mcp: semantic search over official algorand documentation github mcp: access canonical examples from algorand repositories",
-      "headings": [
-        "x402 Protocol Skills",
-        "MCP Servers"
-      ],
-      "keywords": [
-        "x402 Protocol Skills",
-        "MCP Servers",
-        "`algorand-x402-typescript`",
-        "`algorand-x402-python`",
-        "Kapa MCP",
-        "GitHub MCP",
-        "create-project",
-        "build-smart-contracts",
-        "test-smart-contracts",
-        "call-smart-contracts",
-        "deploy-react-frontend",
-        "use-algokit-cli",
-        "troubleshoot-errors",
-        "algorand-x402-typescript",
-        "algorand-x402-python"
-      ]
-    }
-  },
-  {
     "slug": "/agent-skills",
-    "title": "Agent Skills Overview",
-    "description": "Learn about Algorand Agent Skills and how they can supercharge your development.",
-    "content": "# Algorand Agent Skills\n\n**Algorand Agent Skills** are specialized instructions and tools that enable AI coding assistants to understand and perform Algorand-specific development tasks.\n\nBy adding these skills to your AI (like Claude, Cursor, or Copilot), you transform it from a general-purpose assistant into an expert Algorand developer that knows:\n\n* **Best Practices**: The right way to structure contracts and dApps.\n* **Library Nuances**: Deep knowledge of AlgoKit Utils, PuyaTS, and more.\n* **Common Pitfalls**: How to avoid and fix frequent errors.\n\n## Why use Agent Skills?\n\n1. **Speed**: Write complex smart contracts in minutes by describing them in plain English.\n2. **Accuracy**: AI assistants loaded with skills are less likely to hallucinate incorrect API calls.\n3. **Onboarding**: New developers can become productive immediately without spending weeks reading documentation.\n\n## How they work\n\nEach skill consists of:\n\n* **Instructions**: Guidelines for the AI on how to perform a task.\n* **Reference Material**: API documentation and code examples that the AI can \"read\" on demand.\n* **MCP Servers**: Tools that allow the AI to search official docs or fetch live blockchain data.\n\nReady to get started? Head over to the [Quick Start](/docs/agent-skills/quick-start) guide.\n",
+    "title": "Algorand Agent Skills",
+    "description": "Supercharge your AI assistant with specialized Algorand development knowledge.",
+    "content": "# Algorand Agent Skills\n\n**Algorand Agent Skills** are a \"power pill\" for your development workflow. They are specialized sets of instructions, tool configurations, and reference materials that teach AI assistants (like Claude, Cursor, or Copilot) exactly how to build on Algorand.\n\n## What do they do?\n\nWhen you load Agent Skills into your preferred AI tool, it gains expert knowledge in:\n\n* **AlgoKit Workflows**: Initializing, testing, and deploying projects.\n* **Smart Contract Languages**: Writing clean, efficient Puya TypeScript (PuyaTs) or Python.\n* **Troubleshooting**: Diagnosing and fixing common Algorand errors instantly.\n* **Standards**: Implementing ARC standards (like ARC-4, ARC-32, ARC-56) correctly.\n\n## Why use them?\n\nInstead of spending weeks reading documentation, you can describe your intent to your AI assistant, and it will use the Agent Skills to generate production-grade Algorand code that follows all best practices.\n\nReady to setup? Head over to the **[Quick Start](/docs/agent-skills/quick-start)** guide.\n",
     "_searchMeta": {
-      "cleanContent": "algorand agent skills algorand agent skills are specialized instructions and tools that enable ai coding assistants to understand and perform algorand-specific development tasks by adding these skills to your ai like claude cursor or copilot you transform it from a general-purpose assistant into an expert algorand developer that knows: best practices: the right way to structure contracts and dapps library nuances: deep knowledge of algokit utils puyats and more common pitfalls: how to avoid and fix frequent errors why use agent skills speed: write complex smart contracts in minutes by describing them in plain english accuracy: ai assistants loaded with skills are less likely to hallucinate incorrect api calls onboarding: new developers can become productive immediately without spending weeks reading documentation how they work each skill consists of: instructions: guidelines for the ai on how to perform a task reference material: api documentation and code examples that the ai can read on demand mcp servers: tools that allow the ai to search official docs or fetch live blockchain data ready to get started head over to the quick start guide",
+      "cleanContent": "algorand agent skills algorand agent skills are a power pill for your development workflow they are specialized sets of instructions tool configurations and reference materials that teach ai assistants like claude cursor or copilot exactly how to build on algorand what do they do when you load agent skills into your preferred ai tool it gains expert knowledge in: algokit workflows: initializing testing and deploying projects smart contract languages: writing clean efficient puya typescript puyats or python troubleshooting: diagnosing and fixing common algorand errors instantly standards: implementing arc standards like arc-4 arc-32 arc-56 correctly why use them instead of spending weeks reading documentation you can describe your intent to your ai assistant and it will use the agent skills to generate production-grade algorand code that follows all best practices ready to setup head over to the quick start guide",
       "headings": [
-        "Why use Agent Skills?",
-        "How they work"
+        "What do they do?",
+        "Why use them?"
       ],
       "keywords": [
-        "Why use Agent Skills?",
-        "How they work",
+        "What do they do?",
+        "Why use them?",
         "Algorand Agent Skills",
-        "Best Practices",
-        "Library Nuances",
-        "Common Pitfalls",
-        "Speed",
-        "Accuracy",
-        "Onboarding",
-        "Instructions",
-        "Reference Material",
-        "MCP Servers"
+        "AlgoKit Workflows",
+        "Smart Contract Languages",
+        "Troubleshooting",
+        "Standards",
+        "[Quick Start](/docs/agent-skills/quick-start)"
       ]
     }
   },
   {
     "slug": "/agent-skills/quick-start",
     "title": "Quick Start",
-    "description": "Set up Algorand Agent Skills in your favorite AI coding tool.",
-    "content": "# Quick Start with Agent Skills\n\nFollow these steps to set up Agent Skills in your development environment.\n\n## 1. Prerequisites\n\nYou need an AI coding assistant. We recommend one of the following:\n\n* **Claude Code**\n* **Cursor**\n* **GitHub Copilot**\n* **OpenCode**\n\n## 2. Setup (Per Project)\n\nChoose your tool and follow the instructions:\n\n### Local Setup (Recommended)\n\nIf you have the `algorand-agent-skills` repository cloned locally:\n\n```bash\n# In your project root\ncp -r ../algorand-agent-skills/skills ./\ncp ../algorand-agent-skills/setups/AGENTS.md ./\n```\n\nFollow the tool-specific guides below to integrate these skills:\n\n### Cursor\n\n1. Create a `.cursor/skills` folder in your project.\n2. Copy the skill files: `cp -r ../algorand-agent-skills/skills/* .cursor/skills/`\n3. Configure your `mcp.json` to include the Algorand MCP server.\n\n### Claude Code\n\n```bash\n# Copy the skills to your project\ncp -r ../algorand-agent-skills/skills ./\n# Copy the agent configuration\ncp ../algorand-agent-skills/setups/claude-code/.mcp.json ./\ncp ../algorand-agent-skills/setups/claude-code/CLAUDE.md ./\n```\n\n### GitHub Copilot\n\n1. Copy the `skills` folder to your project root.\n2. Create a `.github/copilot-instructions.md` file and paste the instructions from the `setups/copilot` folder.\n\n## 3. GitHub PAT Setup\n\nMost skills require access to search code examples. You'll need a GitHub Personal Access Token:\n\n1. Go to [GitHub Settings > Tokens](https://github.com/settings/personal-access-tokens).\n2. Create a new token with read access to public repositories.\n3. Set the `GITHUB_TOKEN` environment variable in your terminal.\n\n```bash\nexport GITHUB_TOKEN=\"your_token_here\"\n```\n",
+    "description": "How to setup Algorand Agent Skills in your favorite AI tool.",
+    "content": "# Quick Start: Setting up Agent Skills\n\nFollow these steps to integrate Algorand Agent Skills into your project.\n\n## 1. Prerequisites\n\nYou need the **[algorand-agent-skills](https://github.com/algorand-devrel/algorand-agent-skills)** repository cloned to your machine.\n\n```bash\ngit clone https://github.com/algorand-devrel/algorand-agent-skills.git\n```\n\n## 2. Setup (Per Project)\n\nNavigate to your active project directory and copy the necessary skills and configuration files.\n\n### For Cursor\n\n1. Create a `.cursor/skills` directory in your project root.\n2. Copy the skills:\n   ```bash\n   cp -r ../algorand-agent-skills/skills/* .cursor/skills/\n   ```\n3. Copy the MCP configuration:\n   ```bash\n   cp ../algorand-agent-skills/setups/cursor/mcp.json .cursor/mcp.json\n   ```\n\n### For Claude Code\n\n```bash\n# Copy the skills to your project\ncp -r ../algorand-agent-skills/skills ./\n# Copy the agent configuration\ncp ../algorand-agent-skills/setups/claude-code/.mcp.json ./\ncp ../algorand-agent-skills/setups/claude-code/CLAUDE.md ./\n```\n\n## 3. GitHub PAT Setup\n\nAll skills require access to search code examples via GitHub.\n\n1. Create a [GitHub Personal Access Token](https://github.com/settings/personal-access-tokens).\n2. Set the `GITHUB_TOKEN` environment variable:\n   ```bash\n   export GITHUB_TOKEN=\"your_token_here\"\n   ```\n\nNow, your AI assistant is ready to help you build on Algorand!\n",
     "_searchMeta": {
-      "cleanContent": "quick start with agent skills follow these steps to set up agent skills in your development environment prerequisites you need an ai coding assistant we recommend one of the following: claude code cursor github copilot opencode setup per project choose your tool and follow the instructions: local setup recommended if you have the algorand-agent-skills repository cloned locally: follow the tool-specific guides below to integrate these skills: cursor create a cursor skills folder in your project copy the skill files: cp -r algorand-agent-skills skills cursor skills configure your mcp json to include the algorand mcp server claude code github copilot copy the skills folder to your project root create a github copilot-instructions md file and paste the instructions from the setups copilot folder github pat setup most skills require access to search code examples you ll need a github personal access token: go to github settings tokens create a new token with read access to public repositories set the github_token environment variable in your terminal",
+      "cleanContent": "quick start: setting up agent skills follow these steps to integrate algorand agent skills into your project prerequisites you need the algorand-agent-skills repository cloned to your machine setup per project navigate to your active project directory and copy the necessary skills and configuration files for cursor create a cursor skills directory in your project root copy the skills: copy the mcp configuration: for claude code github pat setup all skills require access to search code examples via github create a github personal access token set the github_token environment variable: now your ai assistant is ready to help you build on algorand",
       "headings": [
         "1. Prerequisites",
         "2. Setup (Per Project)",
@@ -72,191 +38,120 @@
         "1. Prerequisites",
         "2. Setup (Per Project)",
         "3. GitHub PAT Setup",
-        "Claude Code",
-        "Cursor",
-        "GitHub Copilot",
-        "OpenCode",
-        "algorand-agent-skills",
-        "bash\n# In your project root\ncp -r ../algorand-agent-skills/skills ./\ncp ../algorand-agent-skills/setups/AGENTS.md ./",
-        "Follow the tool-specific guides below to integrate these skills:\n\n### Cursor\n\n1. Create a",
-        "folder in your project.\n2. Copy the skill files:",
-        "3. Configure your",
-        "to include the Algorand MCP server.\n\n### Claude Code",
+        "[algorand-agent-skills](https://github.com/algorand-devrel/algorand-agent-skills)",
+        "bash\ngit clone https://github.com/algorand-devrel/algorand-agent-skills.git",
+        "## 2. Setup (Per Project)\n\nNavigate to your active project directory and copy the necessary skills and configuration files.\n\n### For Cursor\n\n1. Create a",
+        "directory in your project root.\n2. Copy the skills:",
+        "bash\n   cp -r ../algorand-agent-skills/skills/* .cursor/skills/",
+        "3. Copy the MCP configuration:",
+        "bash\n   cp ../algorand-agent-skills/setups/cursor/mcp.json .cursor/mcp.json",
+        "### For Claude Code",
         "bash\n# Copy the skills to your project\ncp -r ../algorand-agent-skills/skills ./\n# Copy the agent configuration\ncp ../algorand-agent-skills/setups/claude-code/.mcp.json ./\ncp ../algorand-agent-skills/setups/claude-code/CLAUDE.md ./",
-        "### GitHub Copilot\n\n1. Copy the",
-        "folder to your project root.\n2. Create a",
-        "file and paste the instructions from the",
-        "folder.\n\n## 3. GitHub PAT Setup\n\nMost skills require access to search code examples. You'll need a GitHub Personal Access Token:\n\n1. Go to [GitHub Settings > Tokens](https://github.com/settings/personal-access-tokens).\n2. Create a new token with read access to public repositories.\n3. Set the",
-        "environment variable in your terminal.",
-        "bash\nexport GITHUB_TOKEN=\"your_token_here\""
-      ]
-    }
-  },
-  {
-    "slug": "/community/contributing",
-    "title": "Contributing",
-    "description": "How to contribute to the Algorand JNTU ecosystem.",
-    "content": "# Joining the Community\n\nWe welcome contributions from developers, instructors, and advocates! Whether it's adding a new agent skill or creating tutorial content, your input is valuable.\n\n1. **Fork the Repo**: Start by forking the relevant project on GitHub.\n2. **Create a Branch**: Work on your feature or fix in a dedicated branch.\n3. **Submit a PR**: Provide a clear description of your changes.\n\nCheck out our [GitHub Discussions](https://github.com/algorand-devrel) for any major proposals.\n",
-    "_searchMeta": {
-      "cleanContent": "joining the community we welcome contributions from developers instructors and advocates whether it s adding a new agent skill or creating tutorial content your input is valuable fork the repo: start by forking the relevant project on github create a branch: work on your feature or fix in a dedicated branch submit a pr: provide a clear description of your changes check out our github discussions for any major proposals",
-      "headings": [],
-      "keywords": [
-        "Fork the Repo",
-        "Create a Branch",
-        "Submit a PR"
-      ]
-    }
-  },
-  {
-    "slug": "/community",
-    "title": "Community",
-    "description": "Join the Algorand JNTU Community and help onboard the next generation of blockchain developers.",
-    "content": "# Get Involved\n\n* **[Contributing](/docs/community/contributing)**: Learn how you can contribute to the Algorand JNTU ecosystem.\n* **[GitHub](https://github.com/algorand-devrel)**: Explore our open-source repositories.\n* **[X (Twitter)](https://x.com/AlgorandJNTU)**: Follow us for the latest project updates.\n",
-    "_searchMeta": {
-      "cleanContent": "get involved contributing: learn how you can contribute to the algorand jntu ecosystem github: explore our open-source repositories x twitter : follow us for the latest project updates",
-      "headings": [],
-      "keywords": [
-        "[Contributing](/docs/community/contributing)",
-        "[GitHub](https://github.com/algorand-devrel)",
-        "[X (Twitter)](https://x.com/AlgorandJNTU)"
-      ]
-    }
-  },
-  {
-    "slug": "/getting-started/how-to-start",
-    "title": "How to Start",
-    "description": "A quick guide on how to start with Algorand development.",
-    "content": "# How to Start with Algorand\n\nStarting your journey as an Algorand developer is easy. Follow these steps to set up your environment and make your first transaction.\n\n## 1. Where to Start?\n\nThe best place to start is the **Algorand Developer Portal**. It contains comprehensive guides, API references, and tutorials.\n\n* [Algorand Developer Portal](https://developer.algorand.org/)\n* [AlgoKit Documentation](https://github.com/algorandfoundation/algokit-cli)\n\n## 2. Setting Up Your Environment\n\nYou need a few things installed on your machine to get started:\n\n* **Python**: Most Algorand tooling is built on Python.\n* **Node.js**: For frontend development and some SDKs.\n* **Docker**: To run a local private network (Algorand \"LocalNet\").\n\n## 3. Install AlgoKit\n\nAlgoKit is the primary tool for Algorand development. It helps you initialize projects, run local networks, and deploy contracts.\n\n```bash\n# Install via pip\npipx install algokit\n\n# Verify installation\nalgokit --version\n```\n\n## 4. Spin up LocalNet\n\nOnce AlgoKit is installed, you can start a local Algorand node for testing:\n\n```bash\nalgokit localnet start\n```\n\n## 5. Your First Project\n\nCreate a new project using an AlgoKit template:\n\n```bash\nalgokit init\n```\n\nFollow the prompts to choose your preferred language (TypeScript or Python).\n",
-    "_searchMeta": {
-      "cleanContent": "how to start with algorand starting your journey as an algorand developer is easy follow these steps to set up your environment and make your first transaction where to start the best place to start is the algorand developer portal it contains comprehensive guides api references and tutorials algorand developer portal algokit documentation setting up your environment you need a few things installed on your machine to get started: python: most algorand tooling is built on python node js: for frontend development and some sdks docker: to run a local private network algorand localnet install algokit algokit is the primary tool for algorand development it helps you initialize projects run local networks and deploy contracts spin up localnet once algokit is installed you can start a local algorand node for testing: your first project create a new project using an algokit template: follow the prompts to choose your preferred language typescript or python",
-      "headings": [
-        "1. Where to Start?",
-        "2. Setting Up Your Environment",
-        "3. Install AlgoKit",
-        "4. Spin up LocalNet",
-        "5. Your First Project"
-      ],
-      "keywords": [
-        "1. Where to Start?",
-        "2. Setting Up Your Environment",
-        "3. Install AlgoKit",
-        "4. Spin up LocalNet",
-        "5. Your First Project",
-        "Algorand Developer Portal",
-        "Python",
-        "Node.js",
-        "Docker",
-        "bash\n# Install via pip\npipx install algokit\n\n# Verify installation\nalgokit --version",
-        "## 4. Spin up LocalNet\n\nOnce AlgoKit is installed, you can start a local Algorand node for testing:",
-        "bash\nalgokit localnet start",
-        "## 5. Your First Project\n\nCreate a new project using an AlgoKit template:",
-        "bash\nalgokit init"
+        "## 3. GitHub PAT Setup\n\nAll skills require access to search code examples via GitHub.\n\n1. Create a [GitHub Personal Access Token](https://github.com/settings/personal-access-tokens).\n2. Set the",
+        "environment variable:",
+        "bash\n   export GITHUB_TOKEN=\"your_token_here\""
       ]
     }
   },
   {
     "slug": "/getting-started",
-    "title": "Introduction",
-    "description": "Welcome to the Algorand JNTU Onboarding Documentation.",
-    "content": "# Welcome to Algorand JNTU\n\nThe **Algorand JNTU** program is designed to onboard developers into the Algorand ecosystem, providing the tools and knowledge needed to build scalable, secure, and decentralized applications on the world's most advanced blockchain.\n\n## Getting Started\n\nTo begin your journey with Algorand, we recommend watching our introductory video and setting up your development environment.\n\n### Video: Getting Started with Algorand\n\n<iframe width=\"100%\" height=\"450\" src=\"https://www.youtube.com/embed/HrZUe5P4mUY\" title=\"Algorand Getting Started\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen className=\"rounded-xl border shadow-sm\" />\n\n> \\[!NOTE]\n> *Replace the video ID above with your actual YouTube video ID.*\n\n## Algorand Connect Wallet Starter\n\nTo get your frontend up and running quickly, use the **Connect Wallet Starter V2**. This template provides the easiest way to integrate Algorand wallets into your React application.\n\n### [Connect Wallet Starter V2](https://github.com/nickthelegend/connect-wallet-starter-v2)\n\n**Setup Instructions:**\n\n1. **Clone the project**:\n   ```bash\n   git clone https://github.com/nickthelegend/connect-wallet-starter-v2.git\n   ```\n2. **Install dependencies**:\n   ```bash\n   cd connect-wallet-starter-v2\n   npm install\n   ```\n3. **Run locally**:\n   ```bash\n   npm run dev\n   ```\n\n***\n\n## Onboarding Users without Wallets (Custodian)\n\nOne of the biggest hurdles in blockchain is user onboarding. **Kyra Wallet** (the custodian) allows users to login using **Google**—no need for Pera or any other external wallet to get started.\n\n### [Kyra Wallet Custodian Starter](https://github.com/nickthelegend/connect-wallet-starter-v2-custodian)\n\n**Why use the Custodian Wallet?**\n\n* **No Crypto Experience Needed**: Users can sign in with social accounts they already have.\n* **Seamless Integration**: The wallet is generated automatically in [kyra.algocraft.fun](https://kyra.algocraft.fun).\n* **Developer Friendly**: Use the starter template to build apps that onboard users instantly.\n\n***\n\n## Algorand Agent Skills\n\n**Algorand Agent Skills** are a power pill for development. They teach AI assistants (like Claude, Cursor, or Copilot) how to complete Algorand-specific tasks.\n\n* **Create Projects**: Initialize AlgoKit projects with best practices.\n* **Build Smart Contracts**: Build contracts in Algorand TypeScript (PuyaTs) or Python.\n* **Test & Deploy**: Automated workflows for testing and deploying your dApps.\n* **Troubleshoot**: Diagnose and fix common Algorand errors instantly.\n\n## Next Steps\n\nHead over to the [How to Start](/docs/getting-started/how-to-start) guide or explore the [Agent Skills](/docs/agent-skills) documentation.\n",
+    "title": "Getting Started",
+    "description": "How to start and where to begin your Algorand journey.",
+    "content": "# Getting Started with Algorand\n\nNew to Algorand? This page will guide you through the essential resources and point you in the right direction to start building.\n\n## Where to Start?\n\nThe Algorand ecosystem is rich with resources. Here are the most important entry points:\n\n1. **[Algorand Developer Portal](https://developer.algorand.org/)**: The source of truth for all technical documentation, API references, and in-depth tutorials.\n2. **[AlgoKit](https://github.com/algorandfoundation/algokit-cli)**: The official development toolkit. If you're building on Algorand, you'll be using AlgoKit.\n3. **[Discord Community](https://discord.gg/algorand)**: Join thousands of other developers to ask questions and get support.\n\n## Your Path to Development\n\nYour journey typically follows these steps:\n\n1. **Understand the Basics**: Learn about Accounts, Assets (ASAs), and Transactions.\n2. **Install the Tooling**: Set up your development environment.\n3. **Write your First Contract**: Use Python or TypeScript to logic on-chain.\n4. **Connect a Frontend**: Build a user interface that interacts with your contracts.\n\nNext, let's look at what you need to install on your machine to get moving.\n\n**[Setup & Installation](/docs/getting-started/installation)**\n",
     "_searchMeta": {
-      "cleanContent": "welcome to algorand jntu the algorand jntu program is designed to onboard developers into the algorand ecosystem providing the tools and knowledge needed to build scalable secure and decentralized applications on the world s most advanced blockchain getting started to begin your journey with algorand we recommend watching our introductory video and setting up your development environment video: getting started with algorand iframe width 100 height 450 src https: www youtube com embed hrzue5p4muy title algorand getting started frameborder 0 allow accelerometer autoplay clipboard-write encrypted-media gyroscope picture-in-picture web-share allowfullscreen classname rounded-xl border shadow-sm note replace the video id above with your actual youtube video id algorand connect wallet starter to get your frontend up and running quickly use the connect wallet starter v2 this template provides the easiest way to integrate algorand wallets into your react application connect wallet starter v2 setup instructions: clone the project: install dependencies: run locally: onboarding users without wallets custodian one of the biggest hurdles in blockchain is user onboarding kyra wallet the custodian allows users to login using google no need for pera or any other external wallet to get started kyra wallet custodian starter why use the custodian wallet no crypto experience needed: users can sign in with social accounts they already have seamless integration: the wallet is generated automatically in kyra algocraft fun developer friendly: use the starter template to build apps that onboard users instantly algorand agent skills algorand agent skills are a power pill for development they teach ai assistants like claude cursor or copilot how to complete algorand-specific tasks create projects: initialize algokit projects with best practices build smart contracts: build contracts in algorand typescript puyats or python test deploy: automated workflows for testing and deploying your dapps troubleshoot: diagnose and fix common algorand errors instantly next steps head over to the how to start guide or explore the agent skills documentation",
+      "cleanContent": "getting started with algorand new to algorand this page will guide you through the essential resources and point you in the right direction to start building where to start the algorand ecosystem is rich with resources here are the most important entry points: algorand developer portal: the source of truth for all technical documentation api references and in-depth tutorials algokit: the official development toolkit if you re building on algorand you ll be using algokit discord community: join thousands of other developers to ask questions and get support your path to development your journey typically follows these steps: understand the basics: learn about accounts assets asas and transactions install the tooling: set up your development environment write your first contract: use python or typescript to logic on-chain connect a frontend: build a user interface that interacts with your contracts next let s look at what you need to install on your machine to get moving setup installation",
       "headings": [
-        "Getting Started",
-        "Algorand Connect Wallet Starter",
-        "Onboarding Users without Wallets (Custodian)",
-        "Algorand Agent Skills",
-        "Next Steps"
+        "Where to Start?",
+        "Your Path to Development"
       ],
       "keywords": [
-        "Algorand",
-        "JNTU",
-        "Smart Contracts",
-        "AI Agents",
-        "Blockchain",
-        "Getting Started",
-        "Algorand Connect Wallet Starter",
-        "Onboarding Users without Wallets (Custodian)",
-        "Algorand Agent Skills",
-        "Next Steps",
-        "Algorand JNTU",
-        "Connect Wallet Starter V2",
-        "Setup Instructions:",
-        "Clone the project",
-        "Install dependencies",
-        "Run locally",
-        "## Onboarding Users without Wallets (Custodian)\n\nOne of the biggest hurdles in blockchain is user onboarding.",
-        "(the custodian) allows users to login using",
-        "—no need for Pera or any other external wallet to get started.\n\n### [Kyra Wallet Custodian Starter](https://github.com/nickthelegend/connect-wallet-starter-v2-custodian)",
-        "No Crypto Experience Needed",
-        "Seamless Integration",
-        "Developer Friendly",
-        "## Algorand Agent Skills",
-        "Create Projects",
-        "Build Smart Contracts",
-        "Test & Deploy",
-        "Troubleshoot",
-        "bash\n   git clone https://github.com/nickthelegend/connect-wallet-starter-v2.git",
-        "2. **Install dependencies**:",
-        "bash\n   cd connect-wallet-starter-v2\n   npm install",
-        "3. **Run locally**:",
-        "bash\n   npm run dev"
+        "Where to Start?",
+        "Your Path to Development",
+        "[Algorand Developer Portal](https://developer.algorand.org/)",
+        "[AlgoKit](https://github.com/algorandfoundation/algokit-cli)",
+        "[Discord Community](https://discord.gg/algorand)",
+        "Understand the Basics",
+        "Install the Tooling",
+        "Write your First Contract",
+        "Connect a Frontend",
+        "[Setup & Installation](/docs/getting-started/installation)"
+      ]
+    }
+  },
+  {
+    "slug": "/getting-started/installation",
+    "title": "Setup & Installation",
+    "description": "Watch the getting started video and install the necessary development tools.",
+    "content": "# Setup & Installation\n\nFollow this guide to get your machine ready for Algorand development.\n\n## Watch the Getting Started Video\n\nBefore you start installing, watch this overview to understand the workflow:\n\n<iframe width=\"100%\" height=\"450\" src=\"https://www.youtube.com/embed/HrZUe5P4mUY\" title=\"Algorand Getting Started\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen className=\"rounded-xl border shadow-sm\" />\n\n***\n\n## What to Install\n\nTo build on Algorand, you'll need the following core tools:\n\n### 1. Python 3.10+\n\nMost Algorand tooling, including AlgoKit and Puya Py, is built with Python.\n\n* [Download Python](https://www.python.org/downloads/)\n\n### 2. Docker Desktop\n\nRequired for running an Algorand \"LocalNet\" (a private private network on your machine).\n\n* [Install Docker](https://www.docker.com/products/docker-desktop/)\n\n### 3. AlgoKit CLI\n\nAlgoKit is the primary interface for starting projects, running local nodes, and deploying contracts.\n\n```bash\n# Install via pipx (recommended)\npipx install algokit\n\n# Verify installation\nalgokit --version\n```\n\n### 4. Node.js (Optional but Recommended)\n\nRequired if you are building React/Next.js frontends or using the TypeScript SDK.\n\n* [Install Node.js](https://nodejs.org/)\n\n***\n\n## Spin up your First Node\n\nOnce Docker and AlgoKit are installed, you can start a local Algorand node:\n\n```bash\nalgokit localnet start\n```\n\nThis gives you a functional Algorand network with pre-funded accounts to test your applications for free.\n",
+    "_searchMeta": {
+      "cleanContent": "setup installation follow this guide to get your machine ready for algorand development watch the getting started video before you start installing watch this overview to understand the workflow: iframe width 100 height 450 src https: www youtube com embed hrzue5p4muy title algorand getting started frameborder 0 allow accelerometer autoplay clipboard-write encrypted-media gyroscope picture-in-picture web-share allowfullscreen classname rounded-xl border shadow-sm what to install to build on algorand you ll need the following core tools: python 3 10 most algorand tooling including algokit and puya py is built with python download python docker desktop required for running an algorand localnet a private private network on your machine install docker algokit cli algokit is the primary interface for starting projects running local nodes and deploying contracts node js optional but recommended required if you are building react next js frontends or using the typescript sdk install node js spin up your first node once docker and algokit are installed you can start a local algorand node: this gives you a functional algorand network with pre-funded accounts to test your applications for free",
+      "headings": [
+        "Watch the Getting Started Video",
+        "What to Install",
+        "Spin up your First Node"
+      ],
+      "keywords": [
+        "Watch the Getting Started Video",
+        "What to Install",
+        "Spin up your First Node",
+        "bash\n# Install via pipx (recommended)\npipx install algokit\n\n# Verify installation\nalgokit --version",
+        "### 4. Node.js (Optional but Recommended)\n\nRequired if you are building React/Next.js frontends or using the TypeScript SDK.\n\n* [Install Node.js](https://nodejs.org/)\n\n***\n\n## Spin up your First Node\n\nOnce Docker and AlgoKit are installed, you can start a local Algorand node:",
+        "bash\nalgokit localnet start"
       ]
     }
   },
   {
     "slug": "/",
-    "title": "Documentation",
-    "description": "Welcome to the Algorand JNTU Documentation.",
-    "content": "# Algorand JNTU Documentation\n\nWelcome to the official onboarding documentation for Algorand JNTU.\n\nUse the sidebar to navigate through the different sections:\n\n* **[Getting Started](/docs/getting-started)**: Basic concepts and environment setup.\n* **[Starters](/docs/starters)**: Ready-to-use templates for your projects.\n* **[Agent Skills](/docs/agent-skills)**: Power up your AI with Algorand knowledge.\n\nReady to begin? Start with the **[Introduction](/docs/getting-started)**.\n",
+    "title": "Welcome to Algorand JNTU",
+    "description": "Technical onboarding documentation for the Algorand JNTU ecosystem.",
+    "content": "# Algorand JNTU Onboarding\n\nWelcome to the official developer onboarding portal for **Algorand JNTU**. This guide is designed to take you from zero to building production-ready decentralized applications on the Algorand blockchain.\n\n## Why Algorand?\n\nAlgorand is a high-performance, carbon-neutral blockchain that solves the \"Blockchain Trilemma\" of security, scalability, and decentralization. With its **Pure Proof of Stake (PPoS)** consensus, it offers:\n\n* **Instant Finality**: Transactions are confirmed in seconds.\n* **Low Fees**: Scalable infrastructure with minimal costs.\n* **Powerful Logic**: Write smart contracts in Python or TypeScript.\n\n## How to navigate these docs\n\nUse the sidebar to explore the following sections:\n\n* **[Getting Started](/docs/getting-started)**: Learn the fundamentals and set up your local development environment.\n* **[Agent Skills](/docs/agent-skills)**: Power up your AI assistant with specialized Algorand development knowledge.\n* **[Starters & Templates](/docs/starters)**: Jumpstart your project with pre-configured frontend and custodian wallet templates.\n\nReady to dive in? Head over to **[How to Start](/docs/getting-started)**.\n",
     "_searchMeta": {
-      "cleanContent": "algorand jntu documentation welcome to the official onboarding documentation for algorand jntu use the sidebar to navigate through the different sections: getting started: basic concepts and environment setup starters: ready-to-use templates for your projects agent skills: power up your ai with algorand knowledge ready to begin start with the introduction",
-      "headings": [],
+      "cleanContent": "algorand jntu onboarding welcome to the official developer onboarding portal for algorand jntu this guide is designed to take you from zero to building production-ready decentralized applications on the algorand blockchain why algorand algorand is a high-performance carbon-neutral blockchain that solves the blockchain trilemma of security scalability and decentralization with its pure proof of stake ppos consensus it offers: instant finality: transactions are confirmed in seconds low fees: scalable infrastructure with minimal costs powerful logic: write smart contracts in python or typescript how to navigate these docs use the sidebar to explore the following sections: getting started: learn the fundamentals and set up your local development environment agent skills: power up your ai assistant with specialized algorand development knowledge starters templates: jumpstart your project with pre-configured frontend and custodian wallet templates ready to dive in head over to how to start",
+      "headings": [
+        "Why Algorand?",
+        "How to navigate these docs"
+      ],
       "keywords": [
+        "Why Algorand?",
+        "How to navigate these docs",
+        "Algorand JNTU",
+        "Pure Proof of Stake (PPoS)",
+        "Instant Finality",
+        "Low Fees",
+        "Powerful Logic",
         "[Getting Started](/docs/getting-started)",
-        "[Starters](/docs/starters)",
         "[Agent Skills](/docs/agent-skills)",
-        "[Introduction](/docs/getting-started)"
+        "[Starters & Templates](/docs/starters)",
+        "[How to Start](/docs/getting-started)"
       ]
     }
   },
   {
     "slug": "/starters",
-    "title": "Starters",
-    "description": "Explore Algorand starters and templates.",
-    "content": "# Starters & Templates\n\nJumpstart your development with our pre-configured templates. Choose a category from the sidebar to explore available starters.\n\n* **[Templates Overview](/docs/starters/overview)**: A high-level look at available frontend and custodian templates.\n",
-    "_searchMeta": {
-      "cleanContent": "starters templates jumpstart your development with our pre-configured templates choose a category from the sidebar to explore available starters templates overview: a high-level look at available frontend and custodian templates",
-      "headings": [],
-      "keywords": [
-        "[Templates Overview](/docs/starters/overview)"
-      ]
-    }
-  },
-  {
-    "slug": "/starters/overview",
     "title": "Starters & Templates",
-    "description": "Quick-start templates for Algorand frontend and custodian integration.",
-    "content": "# Starters & Templates\n\nJumpstart your development with these pre-configured templates.\n\n## 1. Connect Wallet Starter V2\n\nThe easiest way to integrate Algorand wallets into your React application. Supports Pera, Defly, and other major wallets out of the box.\n\n* **GitHub**: [connect-wallet-starter-v2](https://github.com/nickthelegend/connect-wallet-starter-v2)\n* **Features**:\n  * Wallet Connection UI\n  * Transaction Signing examples\n  * Account balance fetching\n\n## 2. Custodian Wallet Starter\n\nSpecifically designed for onboarding users who don't have a blockchain wallet yet. Allows users to login via **Google**.\n\n* **GitHub**: [connect-wallet-starter-v2-custodian](https://github.com/nickthelegend/connect-wallet-starter-v2-custodian)\n* **Live Demo**: [kyra.algocraft.fun](https://kyra.algocraft.fun)\n* **Key Benefit**: Zero-friction onboarding for non-crypto users.\n\n## 3. Deployment Guide\n\nMost starters can be deployed instantly to **Vercel** or **Netlify**:\n\n1. Push your code to GitHub.\n2. Connect your repo to Vercel/Netlify.\n3. Add any required environment variables (like `NEXT_PUBLIC_ALGOD_SERVER`).\n4. Build and Deploy!\n",
+    "description": "Pre-configured templates to kickstart your Algorand development.",
+    "content": "# Starters & Templates\n\nJumpstart your development with these high-quality templates for frontend and user onboarding.\n\n## 1. Connect Wallet Starter V2\n\nThe definitive starter for building React/Next.js applications on Algorand. It includes the logic for connecting wallets like Pera, Defly, and Kibisis out of the box.\n\n### [Download on GitHub](https://github.com/nickthelegend/connect-wallet-starter-v2)\n\n**Setup Steps:**\n\n1. Clone: `git clone https://github.com/nickthelegend/connect-wallet-starter-v2.git`\n2. Install: `npm install`\n3. Run: `npm run dev`\n\n***\n\n## 2. Kyra Custodian Wallet (Onboarding)\n\nPerfect for onboarding users who have never touched blockchain. This template allows users to sign in with **Google**—no Pera wallet required to start.\n\n### [Custodian Starter on GitHub](https://github.com/nickthelegend/connect-wallet-starter-v2-custodian)\n\n**Why use Kyra?**\n\n* **Zero Friction**: Users get a functional Algorand wallet just by logging in with their Google account.\n* **KYRA Ecosystem**: The wallet is securely managed at [kyra.algocraft.fun](https://kyra.algocraft.fun).\n* **Mass Adoption**: Ideal for building web3 apps with a traditional web2 user experience.\n\n***\n\n## 3. Algorand Connect UI\n\nA library of beautiful, pre-designed components for Algorand wallet interactions.\n\n* **Live Demo**: [docs.algocraft.fun](https://docs.algocraft.fun)\n",
     "_searchMeta": {
-      "cleanContent": "starters templates jumpstart your development with these pre-configured templates connect wallet starter v2 the easiest way to integrate algorand wallets into your react application supports pera defly and other major wallets out of the box github: connect-wallet-starter-v2 features: wallet connection ui transaction signing examples account balance fetching custodian wallet starter specifically designed for onboarding users who don t have a blockchain wallet yet allows users to login via google github: connect-wallet-starter-v2-custodian live demo: kyra algocraft fun key benefit: zero-friction onboarding for non-crypto users deployment guide most starters can be deployed instantly to vercel or netlify: push your code to github connect your repo to vercel netlify add any required environment variables like nextpublicalgod_server build and deploy",
+      "cleanContent": "starters templates jumpstart your development with these high-quality templates for frontend and user onboarding connect wallet starter v2 the definitive starter for building react next js applications on algorand it includes the logic for connecting wallets like pera defly and kibisis out of the box download on github setup steps: clone: git clone https: github com nickthelegend connect-wallet-starter-v2 git install: npm install run: npm run dev kyra custodian wallet onboarding perfect for onboarding users who have never touched blockchain this template allows users to sign in with google no pera wallet required to start custodian starter on github why use kyra zero friction: users get a functional algorand wallet just by logging in with their google account kyra ecosystem: the wallet is securely managed at kyra algocraft fun mass adoption: ideal for building web3 apps with a traditional web2 user experience algorand connect ui a library of beautiful pre-designed components for algorand wallet interactions live demo: docs algocraft fun",
       "headings": [
         "1. Connect Wallet Starter V2",
-        "2. Custodian Wallet Starter",
-        "3. Deployment Guide"
+        "2. Kyra Custodian Wallet (Onboarding)",
+        "3. Algorand Connect UI"
       ],
       "keywords": [
         "1. Connect Wallet Starter V2",
-        "2. Custodian Wallet Starter",
-        "3. Deployment Guide",
-        "GitHub",
-        "Features",
-        "Google",
+        "2. Kyra Custodian Wallet (Onboarding)",
+        "3. Algorand Connect UI",
+        "Setup Steps:",
+        "## 2. Kyra Custodian Wallet (Onboarding)\n\nPerfect for onboarding users who have never touched blockchain. This template allows users to sign in with",
+        "—no Pera wallet required to start.\n\n### [Custodian Starter on GitHub](https://github.com/nickthelegend/connect-wallet-starter-v2-custodian)",
+        "Zero Friction",
+        "KYRA Ecosystem",
+        "Mass Adoption",
         "Live Demo",
-        "Key Benefit",
-        "Vercel",
-        "Netlify",
-        "NEXT_PUBLIC_ALGOD_SERVER"
+        "git clone https://github.com/nickthelegend/connect-wallet-starter-v2.git",
+        "npm install",
+        "npm run dev"
       ]
     }
   }

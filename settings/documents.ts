@@ -3,20 +3,19 @@ import { Paths } from "@/lib/pageroutes"
 export const Documents: Paths[] = [
   {
     title: "Introduction",
-    href: "/",
+    href: "",
   },
   {
     title: "Getting Started",
     href: "/getting-started",
-    heading: "Fundamentals",
     items: [
       {
-        title: "Overview",
-        href: "/",
+        title: "Installation",
+        href: "/installation",
       },
       {
-        title: "Installation & Video",
-        href: "/installation",
+        title: "Video Tutorial",
+        href: "/video",
       },
     ],
   },
@@ -26,15 +25,10 @@ export const Documents: Paths[] = [
   {
     title: "Agent Skills",
     href: "/agent-skills",
-    heading: "AI Development",
     items: [
       {
-        title: "What are Agent Skills?",
-        href: "/",
-      },
-      {
-        title: "Quick Start Setup",
-        href: "/quick-start",
+        title: "Setup",
+        href: "/setup",
       },
     ],
   },
@@ -42,21 +36,7 @@ export const Documents: Paths[] = [
     spacer: true,
   },
   {
-    title: "Starters & Templates",
+    title: "Starters",
     href: "/starters",
-    heading: "Starters",
-  },
-  {
-    spacer: true,
-  },
-  {
-    title: "Community",
-    href: "/community",
-    items: [
-      {
-        title: "Contributing",
-        href: "/contributing",
-      },
-    ],
   },
 ]
