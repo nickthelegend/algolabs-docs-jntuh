@@ -1,20 +1,16 @@
 export const Documents = [
     {
+        title: "Getting Started",
+        href: "/getting-started",
         heading: "Introduction",
-        title: "Basic Setup",
-        href: "/basic-setup",
         items: [
             {
-                title: "Installation",
-                href: "/installation",
+                title: "Introduction",
+                href: "/",
             },
             {
-                title: "Setup",
-                href: "/setup",
-            },
-            {
-                title: "Changelog",
-                href: "/changelog",
+                title: "How to Start",
+                href: "/how-to-start",
             },
         ],
     },
@@ -22,29 +18,13 @@ export const Documents = [
         spacer: true,
     },
     {
-        title: "Navigation",
-        href: "/navigation",
-        heading: "Documents",
-    },
-    {
-        title: "Structure",
-        href: "/structure",
+        title: "Starters",
+        href: "/starters",
+        heading: "Development",
         items: [
             {
-                title: "Deep",
-                href: "/deep",
-                items: [
-                    {
-                        title: "Deeper",
-                        href: "/deeper",
-                        items: [
-                            {
-                                title: "Even deeper",
-                                href: "/even-deeper",
-                            },
-                        ],
-                    },
-                ],
+                title: "Templates Overview",
+                href: "/",
             },
         ],
     },
@@ -52,45 +32,34 @@ export const Documents = [
         spacer: true,
     },
     {
-        title: "Markdown",
-        href: "/markdown",
-        heading: "Components",
+        title: "Agent Skills",
+        href: "/agent-skills",
+        heading: "Power Pill",
         items: [
             {
-                title: "Cards",
-                href: "/cards",
+                title: "Overview",
+                href: "/",
             },
             {
-                title: "Diagrams",
-                href: "/diagrams",
+                title: "Quick Start",
+                href: "/quick-start",
             },
             {
-                title: "Filetree",
-                href: "/filetree",
+                title: "Available Skills",
+                href: "/available-skills",
             },
+        ],
+    },
+    {
+        spacer: true,
+    },
+    {
+        title: "Community",
+        href: "/community",
+        items: [
             {
-                title: "Lists",
-                href: "/lists",
-            },
-            {
-                title: "Maths",
-                href: "/maths",
-            },
-            {
-                title: "Notes",
-                href: "/notes",
-            },
-            {
-                title: "Steps",
-                href: "/steps",
-            },
-            {
-                title: "Table",
-                href: "/table",
-            },
-            {
-                title: "Tabs",
-                href: "/tabs",
+                title: "Contributing",
+                href: "/contributing",
             },
         ],
     },
