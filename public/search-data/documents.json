@@ -205,6 +205,22 @@
     }
   },
   {
+    "slug": "/",
+    "title": "Documentation",
+    "description": "Welcome to the Algorand JNTU Documentation.",
+    "content": "# Algorand JNTU Documentation\n\nWelcome to the official onboarding documentation for Algorand JNTU.\n\nUse the sidebar to navigate through the different sections:\n\n* **[Getting Started](/docs/getting-started)**: Basic concepts and environment setup.\n* **[Starters](/docs/starters)**: Ready-to-use templates for your projects.\n* **[Agent Skills](/docs/agent-skills)**: Power up your AI with Algorand knowledge.\n\nReady to begin? Start with the **[Introduction](/docs/getting-started)**.\n",
+    "_searchMeta": {
+      "cleanContent": "algorand jntu documentation welcome to the official onboarding documentation for algorand jntu use the sidebar to navigate through the different sections: getting started: basic concepts and environment setup starters: ready-to-use templates for your projects agent skills: power up your ai with algorand knowledge ready to begin start with the introduction",
+      "headings": [],
+      "keywords": [
+        "[Getting Started](/docs/getting-started)",
+        "[Starters](/docs/starters)",
+        "[Agent Skills](/docs/agent-skills)",
+        "[Introduction](/docs/getting-started)"
+      ]
+    }
+  },
+  {
     "slug": "/starters",
     "title": "Starters",
     "description": "Explore Algorand starters and templates.",
