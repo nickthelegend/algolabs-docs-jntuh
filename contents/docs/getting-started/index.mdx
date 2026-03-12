@@ -12,40 +12,66 @@ The **Algorand JNTU** program is designed to onboard developers into the Algoran
 
 To begin your journey with Algorand, we recommend watching our introductory video and setting up your development environment.
 
-### Video: How to Start
-<video src="/videos/getting-started.mp4" controls />
+### Video: Getting Started with Algorand
+<iframe
+  width="100%"
+  height="450"
+  src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+  title="Algorand Getting Started"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+  className="rounded-xl border shadow-sm"
+></iframe>
 
-### Installation Guide
-To start developing on Algorand, you'll need the following tools:
+> [!NOTE]
+> *Replace the video ID above with your actual YouTube video ID.*
 
-1.  **AlgoKit**: The one-stop shop for Algorand development.
+## Algorand Connect Wallet Starter
+
+To get your frontend up and running quickly, use the **Connect Wallet Starter V2**. This template provides the easiest way to integrate Algorand wallets into your React application.
+
+### [Connect Wallet Starter V2](https://github.com/nickthelegend/connect-wallet-starter-v2)
+
+**Setup Instructions:**
+1.  **Clone the project**:
     ```bash
-    pipx install algokit
+    git clone https://github.com/nickthelegend/connect-wallet-starter-v2.git
     ```
-2.  **Docker**: Required for running a local Algorand node.
-3.  **Python 3.10+** or **Node.js 18+**: Depending on your preferred language.
+2.  **Install dependencies**:
+    ```bash
+    cd connect-wallet-starter-v2
+    npm install
+    ```
+3.  **Run locally**:
+    ```bash
+    npm run dev
+    ```
+
+---
+
+## Onboarding Users without Wallets (Custodian)
+
+One of the biggest hurdles in blockchain is user onboarding. **Kyra Wallet** (the custodian) allows users to login using **Google**—no need for Pera or any other external wallet to get started.
+
+### [Kyra Wallet Custodian Starter](https://github.com/nickthelegend/connect-wallet-starter-v2-custodian)
+
+**Why use the Custodian Wallet?**
+-   **No Crypto Experience Needed**: Users can sign in with social accounts they already have.
+-   **Seamless Integration**: The wallet is generated automatically in [kyra.algocraft.fun](https://kyra.algocraft.fun).
+-   **Developer Friendly**: Use the starter template to build apps that onboard users instantly.
+
+---
 
 ## Algorand Agent Skills
 
-**Algorand Agent Skills** are a power pill for development. They teach AI assistants (like Claude, Cursor, or Copilot) how to complete Algorand-specific tasks:
+**Algorand Agent Skills** are a power pill for development. They teach AI assistants (like Claude, Cursor, or Copilot) how to complete Algorand-specific tasks.
 
 - **Create Projects**: Initialize AlgoKit projects with best practices.
 - **Build Smart Contracts**: Build contracts in Algorand TypeScript (PuyaTs) or Python.
 - **Test & Deploy**: Automated workflows for testing and deploying your dApps.
 - **Troubleshoot**: Diagnose and fix common Algorand errors instantly.
 
-### Why use Agent Skills?
-Building on blockchain can be complex. Agent skills abstract away that complexity by giving your AI pair programmer the exact context it needs to help you write production-grade code from day one.
-
-## Ecosystem Overview
-
-| Feature | Description |
-| :--- | :--- |
-| **AlgoKit** | Comprehensive CLI for scaffolding, testing, and deploying. |
-| **Puya TypeScript** | Write Algorand smart contracts using standard TypeScript. |
-| **Agent Skills** | AI-powered development assistance. |
-| **Developer Portal** | Deep dives into Algorand technology. |
-
 ## Next Steps
 
-Head over to the [Installation](/docs/getting-started/installation) (coming soon) or explore the project-specific docs in the sidebar.
+Head over to the [How to Start](/docs/getting-started/how-to-start) guide or explore the [Agent Skills](/docs/agent-skills) documentation.

@@ -7,7 +7,7 @@ export const Navigations = [
   },
   {
     title: "Algorand JNTU",
-    href: "https://jntu.algorand.foundation",
+    href: "https://docs.algocraft.fun",
     external: true,
   },
 ]

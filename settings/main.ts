@@ -1,4 +1,4 @@
-export const url = "https://jntu.algorand.foundation"
+export const url = "https://docs.algocraft.fun"
 export const siteicon = "/logo.png"
 
 export const gtm = "GTM-XXXXXXX"

@@ -20,6 +20,20 @@ export const Documents: Paths[] = [
     spacer: true,
   },
   {
+    title: "Starters",
+    href: "/starters",
+    heading: "Development",
+    items: [
+      {
+        title: "Templates Overview",
+        href: "/",
+      },
+    ],
+  },
+  {
+    spacer: true,
+  },
+  {
     title: "Agent Skills",
     href: "/agent-skills",
     heading: "Power Pill",
