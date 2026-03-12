@@ -7,10 +7,6 @@ export const Documents: Paths[] = [
     heading: "Introduction",
     items: [
       {
-        title: "Introduction",
-        href: "/",
-      },
-      {
         title: "How to Start",
         href: "/how-to-start",
       },
@@ -26,7 +22,7 @@ export const Documents: Paths[] = [
     items: [
       {
         title: "Templates Overview",
-        href: "/",
+        href: "/overview",
       },
     ],
   },
@@ -38,10 +34,6 @@ export const Documents: Paths[] = [
     href: "/agent-skills",
     heading: "Power Pill",
     items: [
-      {
-        title: "Overview",
-        href: "/",
-      },
       {
         title: "Quick Start",
         href: "/quick-start",
